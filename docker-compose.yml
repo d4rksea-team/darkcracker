@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  darkcracker:
+    build: .
+    image: darkcracker:2.0.0
+    container_name: darkcracker
+    privileged: true
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - darkcracker_data:/root/.darkcracker
+      - /dev:/dev
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_ADMIN
+    restart: unless-stopped
+volumes:
+  darkcracker_data:

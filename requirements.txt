@@ -1,0 +1,9 @@
+# DARK CRACKER OPS — Generation 2 (CLI Edition)
+# Install: pip install -r requirements.txt --break-system-packages
+
+scapy>=2.5.0
+python-nmap>=0.7.1
+netifaces>=0.11.0
+requests>=2.28.0
+paramiko>=3.0.0
+reportlab>=4.0.0

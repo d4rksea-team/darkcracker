@@ -1,0 +1,149 @@
+/* DARK CRACKER OPS — TUI Theme */
+Screen {
+    background: #020508;
+    color: #a8c8e0;
+}
+Header {
+    background: #060d14;
+    color: #00e5ff;
+    text-style: bold;
+}
+Footer {
+    background: #060d14;
+    color: #3a6080;
+}
+Tabs {
+    background: #060d14;
+    border-bottom: tall #0e1f30;
+}
+Tab {
+    background: #040b12;
+    color: #3a6080;
+    padding: 0 3;
+}
+Tab.-active {
+    background: #0e1f30;
+    color: #00e5ff;
+    border-top: tall #00e5ff;
+    text-style: bold;
+}
+Tab:hover {
+    background: #0a1628;
+    color: #a8c8e0;
+}
+TabbedContent > TabPane {
+    background: #020508;
+    padding: 1;
+}
+Button {
+    background: #060d14;
+    color: #a8c8e0;
+    border: tall #0e1f30;
+}
+Button:hover {
+    background: #0e1f30;
+    color: #00e5ff;
+    border: tall #00e5ff;
+}
+Button.primary {
+    background: #003040;
+    color: #00e5ff;
+    border: tall #00e5ff;
+    text-style: bold;
+}
+Button.danger {
+    background: #300010;
+    color: #ff2244;
+    border: tall #ff2244;
+    text-style: bold;
+}
+Button.danger:hover {
+    background: #500020;
+}
+Button.success {
+    background: #002818;
+    color: #00ff88;
+    border: tall #00ff88;
+}
+Button.warning {
+    background: #302000;
+    color: #ffc800;
+    border: tall #ffc800;
+}
+Input {
+    background: #060d14;
+    color: #a8c8e0;
+    border: tall #0e1f30;
+}
+Input:focus {
+    border: tall #00e5ff;
+    color: #e0f0ff;
+}
+Select {
+    background: #060d14;
+    color: #a8c8e0;
+    border: tall #0e1f30;
+}
+Select:focus {
+    border: tall #00e5ff;
+}
+DataTable {
+    background: #020508;
+    color: #a8c8e0;
+    border: tall #0e1f30;
+}
+DataTable > .datatable--header {
+    background: #060d14;
+    color: #00e5ff;
+    text-style: bold;
+}
+DataTable > .datatable--cursor {
+    background: #0e3050;
+    color: #e0f0ff;
+}
+DataTable > .datatable--even-row {
+    background: #030810;
+}
+DataTable > .datatable--hover {
+    background: #0a1628;
+}
+RichLog {
+    background: #030810;
+    color: #a8c8e0;
+    border: tall #0e1f30;
+    padding: 0 1;
+}
+ScrollBar > ScrollBarSlider {
+    background: #0e1f30;
+}
+ScrollBar > ScrollBarSlider:hover {
+    background: #00e5ff;
+}
+.section-title {
+    color: #00e5ff;
+    text-style: bold;
+    padding: 0 0 1 0;
+}
+.stat-card {
+    background: #060d14;
+    border: tall #0e1f30;
+    height: 7;
+    width: 1fr;
+    padding: 1 2;
+    align: center middle;
+}
+.stat-card:hover {
+    border: tall #00e5ff;
+}
+.panel {
+    background: #060d14;
+    border: tall #0e1f30;
+    padding: 1;
+}
+Rule {
+    color: #0e1f30;
+}
+.risk-critical { color: #ff2244; text-style: bold; }
+.risk-high     { color: #ff6600; text-style: bold; }
+.risk-medium   { color: #ffc800; }
+.risk-low      { color: #00ff88; }

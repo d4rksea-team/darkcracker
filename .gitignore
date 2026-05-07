@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+darkcracker_report_*.txt
+venv/
+.env
